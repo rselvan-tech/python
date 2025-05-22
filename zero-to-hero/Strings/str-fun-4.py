@@ -1,0 +1,129 @@
+Challenges - Python Strings
+How to solve these coding challenges:
+
+Write your solution in PyCharm or in your preferred Python IDE.
+
+If your solution is not correct, then try to understand the error messages, watch the video again, rewrite the solution, and test it again. Repeat this step until you get the correct solution.
+
+Save the solution in a file for future reference or recap.
+
+
+
+Challenge #1
+
+Consider the following string declaration which is part of the output of a Linux command.
+
+my_str = 'wlo1 Link encap:Ethernet HWaddr b4:6d:83:77:85:f3'
+
+Write a Python script that extracts the MAC address (b4:6d:83:77:85:f3) from the string.
+
+Try to solve the challenge in more than one way.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #2
+
+Display the following strings literally:
+
+It displayed: "You've got an error!"
+\n means a new line.
+\ is known as the escape character.
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #3
+
+Write a Python script that converts foot [ft] to centimeter [cm]. 1 ft = 30.48 cm
+
+The user will be prompted to enter the value in ft.
+
+Display the value in cm with 2 decimals, formatted using an f-string.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #4
+
+Write a Python script that tests if a string is a palindrome.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #5
+
+Change the solution of the previous challenge so that both the white spaces and the letter case are ignored when checking if the string is a palindrome.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #6
+
+Write a Python script to get a string made of the first and the last 2 chars from a given string entered by the user.
+
+Sample String: 'Hello!'
+
+Expected Result: 'Heo!'
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #7
+
+Write a Python program to get a string from a given string where all occurrences of its first character have been changed to '$', except the first character itself.
+
+Sample String: 'mama'
+
+Expected Result: 'ma$a'
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #8
+
+Write a Python program to remove the nth index character from a nonempty string.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #9
+
+Write a Python script that removes the characters which have odd index values of a given string.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #10
+
+Write a Python script that prompts the user for the radius of a circle and calculates its area. Circle's area = pi * r ** 2 where pi = 3.1415
+
+Using an f-string display the area of the circle with 4 decimal places.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #11
+
+Write a Python script that finds the number of occurrences of a substring in a given string by ignoring the letter case.
+
+Are you stuck? Do you want to see the solution to this exercise? Click here.
+
+
+
+Challenge #12
+
+Write a Python script that displays a number with a comma (,) as the thousands separator (US and UK format) and with a period(.) as the thousands separator (EU format).
+
+Sample input number: 1234567
+
+Expected Result: 1,234,567 and 1.234.567
