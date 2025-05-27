@@ -1,0 +1,6 @@
+l1 = list('abc')
+l2 = l1.copy()
+l2.extend([5.5, 'abc'])
+l2.pop()
+print(f'{l1=}')
+print(f'{l2=}')
