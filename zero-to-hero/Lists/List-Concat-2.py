@@ -1,0 +1,1 @@
+print( list('ab') * 2 + list(range(3)))
