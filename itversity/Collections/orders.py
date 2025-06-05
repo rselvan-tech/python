@@ -12,3 +12,5 @@ print(get_order_date(orders[0]))
 print(list(map(get_order_date,orders))[:10])
 print(list(map(lambda s: s.split(',')[1],orders))[:10])
 
+help(map )
+

@@ -16,11 +16,13 @@ print(set(db.items()))     #{('host', 'abc'), ('db_name', 'reliable_db')}       
 print(list(db.items()))    #[('host', 'abc'), ('db_name', 'reliable_db')]             <= List of tuples
 
 print(db.values())          #dict_values(['abc', 'reliable_db'])
-print(set(db.values()))     #{('host', 'abc'), ('db_name', 'reliable_db')}             <= Set of value strings          
-print(list(db.values()))    #[('host', 'abc'), ('db_name', 'reliable_db')]             <= List of value strings
+print(set(db.values()))     #{'reliable_db', 'abc'}                <= Set of value strings          
+print(list(db.values()))    #['abc', 'reliable_db']                <= List of value strings
 
 
 #Access Values
+db['host']='xyz'
+print(db)
 print(db['host'])
 print(db.get('db_name'))
 
@@ -28,7 +30,7 @@ print(db.get('db_name'))
 print( 'host' in db)
 
 
-#Check Key Exist
+#Check value Exist
 print( 'abc' in db.values())
 
 #Remove elements
