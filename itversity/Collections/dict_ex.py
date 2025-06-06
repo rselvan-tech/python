@@ -41,6 +41,7 @@ print(db)
 print(db.popitem())
 print(db)
 
+help(dict.get)
 
 
 
