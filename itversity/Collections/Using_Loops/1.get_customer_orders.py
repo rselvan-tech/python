@@ -16,6 +16,8 @@ def get_customer_orders(all_orders,cust_id):
             cust_orders.append(order)
     return cust_orders
 
+#Get Orders placed by customer id 11599
+
 print(get_customer_orders(orders,'11599'))
 
 
