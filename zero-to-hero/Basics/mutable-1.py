@@ -1,4 +1,4 @@
-#Immutable data types = int, float, str, tuple 
+#Immutable data types = bool, int, float, str, tuple 
 #Mutable data type= list, set, dict
 name='Marry'
 id1=id(name)
